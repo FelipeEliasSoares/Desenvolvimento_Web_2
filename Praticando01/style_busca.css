@@ -1,0 +1,18 @@
+.protest-strike-regular {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: yellow;
+}
+
+.nav-link:hover{
+    color: yellow;
+}
+
+#banner{
+    background-image: url("360_F_440137850_sBJOKpItVGgxB2XgCY4pxJECaU3QTEXC.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
