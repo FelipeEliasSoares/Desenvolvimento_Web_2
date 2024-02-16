@@ -1,0 +1,20 @@
+.protest-strike-regular {
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.nav-link:hover{
+    color: yellow;
+}
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.img-fluid{
+  border-radius: 20px;
+}
+

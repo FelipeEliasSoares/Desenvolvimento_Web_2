@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario/Tabela</title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando 01-Relembrando</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style_tabela.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container-fluid d-flex flex-row-reverse bg-primary-subtle">
+        <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Início</a>
+                <a class="nav-link" href="Busca.html">Busca</a>
+                <a class="nav-link" href="tabela.html">Formulário/Tabela</a>
+                <a class="nav-link" href="postagem.html">Postagem c/imagem</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+    </div><!--Fim do menu-->
+
+    <div class="d-flex justify-content-center align-items-center fs-1 mt-5" >
+        <p class="protest-strike-regular ">Formulário de cadastro e Tabela com dados</p>
+    </div>
+
+    <div class="container-fluid mx-4">
+    <div class="row">
+        <div class="col">
+            <form>
+            <div class="mb-3">
+                <label for="exampleInputName" class="form-label">Nome Completo</label>
+                <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+            </div>
+            <div class="mb-3">
+                <label for="telefone" class="form-label">Telefone</label>
+                <input type="text" class="form-control" id="telefone" required placeholder="(xx) xxxxx-xxxx">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Endereço de email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="seu@email.aqui">
+            </div>
+            <div class="mb-3">
+                <label for="examepleInputResidencia" class="form-label">Estado de Residência</label>
+                <select class="form-select" id="examepleInputResidencia" aria-label="Default select example">
+                <option selected>Selecione</option>
+                <option value="1">Acre</option>
+                <option value="2">Alagoas</option>
+                <option value="3">Amapá</option>
+                <option value="4">Amazonas</option>
+                <option value="5">Bahia</option>
+                <option value="6">Ceará</option>
+                <option value="7">Distrito Federal</option>
+                <option value="8">Espírito Santo</option>
+                <option value="9">Goiás</option>
+                <option value="10">Maranhão</option>
+                <option value="11">Mato Grosso</option>
+                <option value="12">Mato Grosso do Sul</option>
+                <option value="13">Minas Gerais</option>
+                <option value="14">Pará</option>
+                <option value="15">Paraíba</option>
+                <option value="16">Paraná</option>
+                <option value="17">Pernambuco</option>
+                <option value="18">Piauí</option>
+                <option value="19">Rio de Janeiro</option>
+                <option value="20">Rio Grande do Norte</option>
+                <option value="21">Rio Grande do Sul</option>
+                <option value="22">Rondônia</option>
+                <option value="23">Roraima</option>
+                <option value="24">Santa Catarina</option>
+                <option value="25">São Paulo</option>
+                <option value="26">Sergipe</option>
+                <option value="27">Tocantins</option>
+                </select>
+            </div>    
+            <button type="submit" class="btn btn-primary">Enviar</button>    
+            <button type="reset" class="btn btn-danger">Limpar</button>
+            </form>
+        </div>
+        <div class="col-8">
+            <table class="table table-striped table-hover">
+            <thead >
+                <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Telefone</th>
+                <th scope="col">Email</th>
+                <th scope="col">Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Carlos de Oliveira</th>
+                    <td>(21) 88888-8888</td>
+                    <td>CarlosOliveira@gmail.com</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+                <tr>
+                    <th scope="row">Ana Pereira</th>
+                    <td>(11) 77777-7777</td>
+                    <td>AnaPereira@gmail.com</td>
+                    <td>São Paulo</td>
+                </tr>
+                    
+                <tr>
+                    <th scope="row">Roberto Almeida</th>
+                    <td>(31) 66666-6666</td>
+                    <td>RobertoAlmeida@gmail.com</td>
+                    <td>Minas Gerais</td>
+                </tr>
+                <tr>
+                    <th scope="row">Juliana Costa</th>
+                    <td>(41) 55555-5555</td>
+                    <td>JulianaCosta@gmail.com</td>
+                    <td>Paraná</td>
+                </tr>
+        </div>
+    </div>
+
+</body>
+</html>
