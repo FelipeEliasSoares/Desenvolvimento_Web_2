@@ -37,7 +37,10 @@
                     echo $numero." x ".$count." = ".($numero*$count)."<br />";
                     $count++;
                 }
-            };
+            }else{
+                echo "<hr>";
+                echo "<p> Digite um numero valido </p>";
+            }
 
         ?>
     </div>  
